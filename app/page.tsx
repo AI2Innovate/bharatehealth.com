@@ -23,6 +23,15 @@ import {
   Stethoscope,
   MapPin,
   Mail,
+  AlarmClock,
+  Network,
+  FlaskConical,
+  ShieldCheck,
+  Share2,
+  Inbox,
+  Mic,
+  FileCheck,
+  Repeat
 } from "lucide-react"
 
 export default function Home() {
@@ -173,9 +182,7 @@ export default function Home() {
                   AI-Powered EHR + Telemedicine for India's Healthcare Future
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  BharatEHealth is a next-generation digital health platform empowering India's hospitals, clinics,
-                  PHCs, and rural health centers with AI-driven Electronic Health Records (EHR) and smart Telemedicine —
-                  built for rural scalability, urban precision, and NDHM compliance.
+                  BharatEHealth is a next-generation digital health platform empowering India's hospitals, clinics, PHCs, and rural health centers with AI-driven Electronic Health Records (EHR) and smart Telemedicine — built for  scalability,  precision, and NDHM compliance.
                 </p>
               </div>
               <div className="flex justify-center">
@@ -200,7 +207,7 @@ export default function Home() {
                   What Makes BharatEHealth Unique?
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Our comprehensive EHR platform is designed specifically for India's diverse healthcare landscape.
+                  Our comprehensive EHR and telemedicine platform is designed specifically for India's diverse healthcare landscape.
                 </p>
               </div>
             </div>
@@ -211,7 +218,7 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 text-primary font-medium text-sm">
                     <Brain className="h-4 w-4 mr-2" />
-                    AI-Integrated EHR System
+                    AI-Integrated EHR System for Smarter Healthcare
                   </div>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-2">
@@ -224,7 +231,7 @@ export default function Home() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
                       <span>
-                        All-in-one patient record: History, diagnostics, prescriptions, insurance & follow-ups
+                        <b>All-in-one digital patient record</b> covering history, diagnostics, prescriptions, insurance, and follow-ups.
                       </span>
                     </li>
                     <li className="flex items-start gap-2">
@@ -236,7 +243,9 @@ export default function Home() {
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      <span>Interoperability with NDHM & Ayushman Bharat</span>
+                      <span>
+                        <b>Seamless interoperability with NDHM and Ayushman Bharat</b> for cross-platform health data exchange.
+                      </span>
                     </li>
                     <li className="flex items-start gap-2">
                       <svg
@@ -247,7 +256,9 @@ export default function Home() {
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      <span>Encrypted Health ID (Aadhaar + Ayushman + DOB) for secure identity mapping</span>
+                      <span>
+                        <b>Encrypted Health ID using Aadhaar, Ayushman Card</b> for secure, pseudonymized patient identity.
+                      </span>
                     </li>
                     <li className="flex items-start gap-2">
                       <svg
@@ -258,7 +269,9 @@ export default function Home() {
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      <span>AI predictions for early disease detection & treatment plans</span>
+                      <span>
+                        <b>AI-powered early disease detection and predictive treatment planning</b> to improve clinical outcomes.
+                      </span>
                     </li>
                     <li className="flex items-start gap-2">
                       <svg
@@ -269,7 +282,9 @@ export default function Home() {
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      <span>Smart reminders for medications, vaccines, and lab tests</span>
+                      <span>
+                        <b>Automated reminders for medications, vaccinations, lab tests, and follow-up appointments</b> to ensure care continuity.
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -310,7 +325,9 @@ export default function Home() {
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      <span>Low-bandwidth mobile app for rural use</span>
+                      <span>
+                        <b>Low-bandwidth mobile app</b> optimized for rural and remote healthcare access.
+                      </span>
                     </li>
                     <li className="flex items-start gap-2">
                       <svg
@@ -321,7 +338,9 @@ export default function Home() {
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      <span>Voice-enabled consultations for semi-literate users</span>
+                      <span>
+                        <b>Voice-enabled teleconsultations</b> designed for semi-literate and multilingual users.
+                      </span>
                     </li>
                     <li className="flex items-start gap-2">
                       <svg
@@ -332,7 +351,9 @@ export default function Home() {
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      <span>Spoke-and-hub model connecting PHCs with district specialists</span>
+                      <span>
+                        <b>Spoke-and-hub telemedicine network</b> connecting PHCs to district-level specialists.
+                      </span>
                     </li>
                     <li className="flex items-start gap-2">
                       <svg
@@ -343,7 +364,9 @@ export default function Home() {
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      <span>Store & forward support for dermatology, radiology & TB cases</span>
+                      <span>
+                        <b>Store-and-forward telehealth support</b> for dermatology, radiology, and TB case management.
+                      </span>
                     </li>
                     <li className="flex items-start gap-2">
                       <svg
@@ -354,7 +377,9 @@ export default function Home() {
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      <span>AI-powered triage bot for first-level screening & doctor assignment</span>
+                      <span>
+                        <b>AI-powered triage assistant</b> for automated symptom screening and smart doctor routing.
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -383,9 +408,9 @@ export default function Home() {
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                       <FileText className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="mb-2 text-xl font-bold">Smart EHR</h3>
+                    <h3 className="mb-2 text-xl font-bold">Unified Digital Health Records</h3>
                     <p className="text-muted-foreground">
-                      End-to-end patient records with diagnostics, prescriptions, and clinical notes
+                      Maintain complete patient profiles including history, diagnostics, prescriptions, insurance details, and follow-ups — all accessible anytime, anywhere.
                     </p>
                   </div>
                   <div className="mt-4 flex items-center justify-between">
@@ -401,11 +426,11 @@ export default function Home() {
                 <div className="flex h-full flex-col justify-between p-4">
                   <div>
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
-                      <Pill className="h-6 w-6 text-primary" />
+                      <ShieldCheck className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="mb-2 text-xl font-bold">Pill & Vaccine Reminders</h3>
+                    <h3 className="mb-2 text-xl font-bold">Secure Health ID & Privacy Protection</h3>
                     <p className="text-muted-foreground">
-                      Auto-reminders to ensure adherence to treatment and public health schedules
+                      Enable secure, pseudonymized patient identification mapped to national health programs like Ayushman Bharat and ABHA — with full data privacy compliance.
                     </p>
                   </div>
                   <div className="mt-4 flex items-center justify-between">
@@ -421,11 +446,11 @@ export default function Home() {
                 <div className="flex h-full flex-col justify-between p-4">
                   <div>
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
-                      <Flask className="h-6 w-6 text-primary" />
+                      <FlaskConical className="h-6 w-6 text-primary" />
                     </div>
                     <h3 className="mb-2 text-xl font-bold">Diagnostics Integration</h3>
                     <p className="text-muted-foreground">
-                      Connects with X-ray, ECG, lab reports, and uploads to patient record
+                      Connects with X-ray, ECG, lab reports, and uploads to patient record.
                     </p>
                   </div>
                   <div className="mt-4 flex items-center justify-between">
@@ -441,11 +466,11 @@ export default function Home() {
                 <div className="flex h-full flex-col justify-between p-4">
                   <div>
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
-                      <UserCircle className="h-6 w-6 text-primary" />
+                      <Network className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="mb-2 text-xl font-bold">Doctor & Staff Profiles</h3>
+                    <h3 className="mb-2 text-xl font-bold">Seamless Interoperability</h3>
                     <p className="text-muted-foreground">
-                      Links patient visits to doctors, nurses, and hospital staff for traceability
+                      Built to integrate effortlessly with national healthcare frameworks like NDHM, labs, pharmacies, and insurance systems for streamlined workflows.
                     </p>
                   </div>
                   <div className="mt-4 flex items-center justify-between">
@@ -461,10 +486,10 @@ export default function Home() {
                 <div className="flex h-full flex-col justify-between p-4">
                   <div>
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
-                      <Lock className="h-6 w-6 text-primary" />
+                      <AlarmClock className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="mb-2 text-xl font-bold">Encrypted Patient ID</h3>
-                    <p className="text-muted-foreground">Pseudonymized Health ID using Aadhaar + Ayushman + DOB</p>
+                    <h3 className="mb-2 text-xl font-bold">Smart Health Reminders</h3>
+                    <p className="text-muted-foreground">Automated notifications for medications, vaccinations, lab tests, and follow-ups to improve treatment adherence and reduce dropouts.</p>
                   </div>
                   <div className="mt-4 flex items-center justify-between">
                     <div className="h-1.5 w-16 overflow-hidden rounded-full bg-primary/20">
@@ -473,38 +498,109 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
 
-              {/* AI Analytics */}
-              <div className="group relative overflow-hidden rounded-lg border bg-background p-2 transition-all hover:shadow-lg">
-                <div className="flex h-full flex-col justify-between p-4">
-                  <div>
-                    <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
-                      <BarChart3 className="h-6 w-6 text-primary" />
-                    </div>
-                    <h3 className="mb-2 text-xl font-bold">AI Analytics</h3>
-                    <p className="text-muted-foreground">
-                      Predictive health scores, at-risk patient alerts, and disease tracking
-                    </p>
-                  </div>
-                  <div className="mt-4 flex items-center justify-between">
-                    <div className="h-1.5 w-16 overflow-hidden rounded-full bg-primary/20">
-                      <div className="h-full w-full rounded-full bg-primary"></div>
-                    </div>
-                  </div>
-                </div>
+        {/* Scalable Telemedicine Platform */}
+        <section className="pb-16">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Scalable Telemedicine Platform</h2>
               </div>
+            </div>
 
-              {/* Offline-First & Mobile-Ready */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Smart EHR */}
               <div className="group relative overflow-hidden rounded-lg border bg-background p-2 transition-all hover:shadow-lg">
                 <div className="flex h-full flex-col justify-between p-4">
                   <div>
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                       <Smartphone className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="mb-2 text-xl font-bold">Offline-First & Mobile-Ready</h3>
+                    <h3 className="mb-2 text-xl font-bold">Mobile responsive & Rural-Ready Access</h3>
                     <p className="text-muted-foreground">
-                      Rural-ready with offline syncing and local language voice notes
+                      Low-bandwidth, mobile-first design optimized.
                     </p>
+                  </div>
+                  <div className="mt-4 flex items-center justify-between">
+                    <div className="h-1.5 w-16 overflow-hidden rounded-full bg-primary/20">
+                      <div className="h-full w-full rounded-full bg-primary"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Pill & Vaccine Reminders */}
+              <div className="group relative overflow-hidden rounded-lg border bg-background p-2 transition-all hover:shadow-lg">
+                <div className="flex h-full flex-col justify-between p-4">
+                  <div>
+                    <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
+                      <Globe className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="mb-2 text-xl font-bold">Voice-Enabled and Multilingual Support</h3>
+                    <p className="text-muted-foreground">
+                      Designed for inclusivity with voice interface and local language support, enhancing usability across demographics.
+                    </p>
+                  </div>
+                  <div className="mt-4 flex items-center justify-between">
+                    <div className="h-1.5 w-16 overflow-hidden rounded-full bg-primary/20">
+                      <div className="h-full w-full rounded-full bg-primary"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Diagnostics Integration */}
+              <div className="group relative overflow-hidden rounded-lg border bg-background p-2 transition-all hover:shadow-lg">
+                <div className="flex h-full flex-col justify-between p-4">
+                  <div>
+                    <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
+                      <Share2 className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="mb-2 text-xl font-bold">Connected Network Model</h3>
+                    <p className="text-muted-foreground">
+                      Facilitates referral-based care between rural centers (PHCs/CHCs) and urban specialists using a scalable hub-and-spoke system.
+                    </p>
+                  </div>
+                  <div className="mt-4 flex items-center justify-between">
+                    <div className="h-1.5 w-16 overflow-hidden rounded-full bg-primary/20">
+                      <div className="h-full w-full rounded-full bg-primary"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Doctor & Staff Profiles */}
+              <div className="group relative overflow-hidden rounded-lg border bg-background p-2 transition-all hover:shadow-lg">
+                <div className="flex h-full flex-col justify-between p-4">
+                  <div>
+                    <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
+                      <Inbox className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="mb-2 text-xl font-bold">Store-and-Forward Capability</h3>
+                    <p className="text-muted-foreground">
+                      Supports asynchronous consults for image- or report-based specialties like dermatology, radiology, ophthalmology, and TB.
+                    </p>
+                  </div>
+                  <div className="mt-4 flex items-center justify-between">
+                    <div className="h-1.5 w-16 overflow-hidden rounded-full bg-primary/20">
+                      <div className="h-full w-full rounded-full bg-primary"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Encrypted Patient ID */}
+              <div className="group relative overflow-hidden rounded-lg border bg-background p-2 transition-all hover:shadow-lg">
+                <div className="flex h-full flex-col justify-between p-4">
+                  <div>
+                    <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
+                      <Brain className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="mb-2 text-xl font-bold">AI-Assisted Patient Triage</h3>
+                    <p className="text-muted-foreground">Intelligent first-level screening that helps prioritize care delivery, reduce wait times, and optimize resource allocation.</p>
                   </div>
                   <div className="mt-4 flex items-center justify-between">
                     <div className="h-1.5 w-16 overflow-hidden rounded-full bg-primary/20">
@@ -522,10 +618,9 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-4">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Designed for Bharat</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Built for Bharat: Secure. Scalable. Inclusive.</h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Whether it's a PHC in Ballari or a cardiac unit in Mysuru — BharatEHealth scales from rural clinics to
-                  super-specialty hospitals.
+                  Whether it's a rural health center or a multi-specialty hospital — BharatEHealth scales seamlessly across all levels of healthcare infrastructure.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-2">
@@ -537,7 +632,7 @@ export default function Home() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
-                    <span>NDHM & Ayushman Ready</span>
+                    <span>NDHM & Ayushman Bharat compatible</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <svg
@@ -548,7 +643,7 @@ export default function Home() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
-                    <span>Multilingual + Voice-first UI</span>
+                    <span>Role-based access for hospital Staff, clinics  & diagnostic labs</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <svg
@@ -559,7 +654,7 @@ export default function Home() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
-                    <span>Modular and interoperable</span>
+                    <span>Modular, cloud-native design for government and private healthcare</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <svg
@@ -570,7 +665,7 @@ export default function Home() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
-                    <span>Available as Web + Android App</span>
+                    <span>Privacy-first approach — no Aadhaar exposure, encrypted data architecture</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <svg
@@ -581,7 +676,7 @@ export default function Home() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
-                    <span>Integrates with insurance, pharmacy, lab & government systems</span>
+                    <span>Works both online and offline (sync-enabled for low connectivity)</span>
                   </li>
                 </ul>
               </div>
@@ -686,7 +781,7 @@ export default function Home() {
 
               <div className="rounded-lg border bg-background p-6 shadow-sm">
                 <div className="flex justify-center mb-4">
-                  <FileText className="h-12 w-12 text-primary" />
+                  <Repeat className="h-12 w-12 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold text-center mb-2">100% continuity of care across facilities</h3>
                 <p className="text-center text-muted-foreground">
@@ -706,20 +801,7 @@ export default function Home() {
 
               <div className="rounded-lg border bg-background p-6 shadow-sm">
                 <div className="flex justify-center mb-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-12 w-12 text-primary"
-                  >
-                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-                  </svg>
+                  <FileCheck className="h-12 w-12 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold text-center mb-2">Faster Ayushman & Insurance claim submissions</h3>
                 <p className="text-center text-muted-foreground">
@@ -729,13 +811,49 @@ export default function Home() {
 
               <div className="rounded-lg border bg-background p-6 shadow-sm">
                 <div className="flex justify-center mb-4">
-                  <Globe className="h-12 w-12 text-primary" />
+                  <MapPin className="h-12 w-12 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold text-center mb-2">
-                  Healthcare reach expanded to Tier 2, Tier 3 & rural India
+                  Expanded Healthcare Reach to Urban & Rural India
                 </h3>
                 <p className="text-center text-muted-foreground">
                   Breaking geographical barriers to bring quality healthcare to underserved communities.
+                </p>
+              </div>
+
+              <div className="rounded-lg border bg-background p-6 shadow-sm">
+                <div className="flex justify-center mb-4">
+                  <BarChart3 className="h-12 w-12 text-primary" />
+                </div>
+                <h3 className="text-xl font-bold text-center mb-2">
+                  Actionable Analytics for Administrators
+                </h3>
+                <p className="text-center text-muted-foreground">
+                  Track OPD/IPD metrics, medication adherence, and patient outcomes with real-time dashboards — no technical expertise needed.
+                </p>
+              </div>
+
+              <div className="rounded-lg border bg-background p-6 shadow-sm">
+                <div className="flex justify-center mb-4">
+                  <ShieldCheck className="h-12 w-12 text-primary" />
+                </div>
+                <h3 className="text-xl font-bold text-center mb-2">
+                  Compliance with NDHM, ABHA, and Aadhaar Privacy Standards
+                </h3>
+                <p className="text-center text-muted-foreground">
+                  Built to support India's national health stack and comply with government regulations for secure, pseudonymized patient data handling.
+                </p>
+              </div>
+
+              <div className="rounded-lg border bg-background p-6 shadow-sm">
+                <div className="flex justify-center mb-4">
+                  <Mic className="h-12 w-12 text-primary" />
+                </div>
+                <h3 className="text-xl font-bold text-center mb-2">
+                  Inclusive by Design: Voice + Vernacular Interface
+                </h3>
+                <p className="text-center text-muted-foreground">
+                  Supports multiple Indian languages and voice-guided interaction, making digital health accessible to semi-literate populations.
                 </p>
               </div>
             </div>
@@ -758,12 +876,8 @@ export default function Home() {
                     <span>Email: contact@bharatehealth.in</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Phone className="h-5 w-5 text-primary" />
-                    <span>Phone: +91-XXXXXXXXXX</span>
-                  </div>
-                  <div className="flex items-center gap-2">
                     <MapPin className="h-5 w-5 text-primary" />
-                    <span>Offices: Bengaluru | Mysuru | Delhi | Pune</span>
+                    <span>Offices: Bengaluru | Gujarat</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Globe className="h-5 w-5 text-primary" />
