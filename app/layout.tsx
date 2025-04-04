@@ -6,10 +6,9 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "MediRecord - Electronic Health Records Software",
+  title: "BharatEHealth - AI-Powered EHR & Telemedicine for India",
   description:
-    "Streamline patient care with MediRecord's advanced EHR solutions designed for modern healthcare providers.",
-    generator: 'v0.dev'
+    "BharatEHealth is a next-generation digital health platform empowering India's healthcare with AI-driven EHR and Telemedicine solutions.",
 }
 
 export default function RootLayout({
@@ -27,7 +26,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'
