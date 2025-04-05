@@ -877,7 +877,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="h-5 w-5 text-primary" />
-                    <span>Offices: Bengaluru | Gujarat</span>
+                    <span>Offices: Bengaluru | Ahmadabad</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Globe className="h-5 w-5 text-primary" />
