@@ -31,7 +31,8 @@ import {
   Inbox,
   Mic,
   FileCheck,
-  Repeat
+  Repeat,
+  Handshake
 } from "lucide-react"
 
 export default function Home() {
@@ -738,21 +739,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col items-center space-y-2 rounded-lg border p-6 shadow-sm">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="h-12 w-12 text-primary"
-                >
-                  <path d="M16 21v-2a4 4 0 0 0-3-3.87"></path>
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                </svg>
+                <Handshake className="h-12 w-12 text-primary" />
                 <h3 className="text-xl font-bold text-center">CSR/NGO Health Initiatives</h3>
               </div>
             </div>
@@ -873,7 +860,7 @@ export default function Home() {
                 <div className="space-y-3">
                   <div className="flex items-center gap-2">
                     <Mail className="h-5 w-5 text-primary" />
-                    <span>Email: contact@bharatehealth.in</span>
+                    <span>Email: info@bharatehealth.com</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="h-5 w-5 text-primary" />
@@ -881,7 +868,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center gap-2">
                     <Globe className="h-5 w-5 text-primary" />
-                    <span>Website: www.bharatehealth.in</span>
+                    <span>Website: www.bharatehealth.com</span>
                   </div>
                 </div>
                 <p className="text-muted-foreground italic">
