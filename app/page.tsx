@@ -188,9 +188,9 @@ export default function Home() {
               </div>
               <div className="flex justify-center">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="BharatEHealth Platform Preview"
-                  className="rounded-lg object-cover shadow-lg"
+                  src="/AI powered.png"
+                  alt="AI-Powered EHR + Telemedicine for India's Healthcare Future"
+                  className="rounded-lg object-cover"
                   width={600}
                   height={400}
                 />
@@ -291,9 +291,9 @@ export default function Home() {
                 </div>
                 <div className="flex justify-center">
                   <img
-                    src="/placeholder.svg?height=300&width=500"
+                    src="/AI Integrated EHR.png"
                     alt="AI-Integrated EHR System"
-                    className="rounded-lg object-cover shadow-lg"
+                    className="rounded-lg object-cover"
                     width={500}
                     height={300}
                   />
@@ -304,9 +304,9 @@ export default function Home() {
               <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
                 <div className="order-2 lg:order-1 flex justify-center">
                   <img
-                    src="/placeholder.svg?height=300&width=500"
+                    src="/Telemedicine.png"
                     alt="Smart Telemedicine for Every Corner of India"
-                    className="rounded-lg object-cover shadow-lg"
+                    className="rounded-lg object-cover"
                     width={500}
                     height={300}
                   />
@@ -683,9 +683,9 @@ export default function Home() {
               </div>
               <div className="flex justify-center">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/Build for Bharat.png"
                   alt="BharatEHealth on multiple devices"
-                  className="rounded-lg object-cover shadow-lg"
+                  className="rounded-lg object-cover"
                   width={600}
                   height={400}
                 />
